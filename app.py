@@ -27,7 +27,7 @@ def send_email(sender_email, sender_password, subject, body, recipients, attachm
         return False
 
 # 🖥 Streamlit UI
-st.title("📨 Bulk Email Sender (User Gmail Login)")
+st.title("📨 Bulk Email Sender (User Gmail Login) by manikant")
 st.write("Send emails with your Gmail account and custom attachments.")
 
 # 🧑‍💻 User Input Section
