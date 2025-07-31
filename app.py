@@ -27,8 +27,9 @@ def send_email(sender_email, sender_password, subject, body, recipients, attachm
         return False
 
 # 🖥 Streamlit UI
-st.title("📨 Bulk Email Sender (User Gmail Login) by manikant")
+st.title("📨 Bulk Email Sender (User Gmail Login) ")
 st.write("Send emails with your Gmail account and custom attachments.")
+st.write("By Manikant")
 
 # 🧑‍💻 User Input Section
 sender_email = st.text_input("📧 Your Gmail Address", placeholder="you@example.com")
